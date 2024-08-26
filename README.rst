@@ -6,14 +6,16 @@ Currently there is only a client available for the Metrics V3 API.
 
 For more details see:
 https://developer.conviva.com/
+
 https://developer.conviva.com/docs/overview/b36bd03b81f71-conviva-video-ap-is-overview
+
 https://developer.conviva.com/docs/metrics-api-v3/7ae5442782284-getting-started
 
 
 Examples
 ========
 
-`` Examples set to use mock server, add an API Key and uncomment to use production examples ``
+``Examples set to use mock server, add an API Key and uncomment to use production examples``
 
 .. code-block:: python
 
