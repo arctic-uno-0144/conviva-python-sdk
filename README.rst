@@ -40,7 +40,7 @@ Examples
         metric="rebuffering-ratio", group_by="device-name", mock=True)
     print(response)
     
-    ## Advanced Requests
+    ## Advanced Request
     r_params = {
         "metric": "video-start-time",
         "mock": True,
@@ -51,11 +51,3 @@ Examples
     response = metrics_client.get_metric(**r_params)
     print(response)
     
-    r_params = {
-        "metric": "video-start-time",
-        "mock": True,
-        "granularity": "PT15M",
-        "group_by": "asn"
-    }
-    response = metrics_client.get_metric(**r_params)
-    print(response)
